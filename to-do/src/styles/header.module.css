@@ -1,0 +1,23 @@
+.headerLine {
+    display: block;
+    /* min-height: 2vh; */
+}
+
+.headerNavigation {
+    height: 4vh;
+    width: 8vw;
+    background-color: rgb(205, 43, 43);
+    margin: 2vh;
+    border-radius: 10%;
+    border: 1px solid rgb(244, 171, 12);
+    text-align: center;
+    cursor: pointer;
+}
+
+.headerUl {
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}

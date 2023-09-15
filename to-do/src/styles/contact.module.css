@@ -1,0 +1,27 @@
+.holoimg {
+    /* display: block; */
+    margin: 3% 0 0 30%;
+    width: 60%;
+    float: left;
+}
+
+.main {
+    display: flex;
+    /* justify-content: start; */
+    /* margin: 0; */
+    /* padding: 0; */
+}
+
+.text {
+    text-align: justify;
+    font-size: 1.2em;
+    margin-top: 3%;
+    margin-right: 15%;
+}
+
+.comment {
+    display: inline-block;
+    width: 100%;
+    margin: 30vh 25vw;
+    font-size: 3em;
+}

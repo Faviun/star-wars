@@ -1,7 +1,7 @@
 import { DreamTeam } from "./DreamTeam";
 import { Hero } from "./Hero";
-import { textFarGalaxy } from "../utils/constants";
-import styles from "../styles/farGalaxy.module.css";
+import { textFarGalaxy } from "../../utils/constants";
+import styles from "../../styles/farGalaxy.module.css";
 
 export const Home = () => {
   return (

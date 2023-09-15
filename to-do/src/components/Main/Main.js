@@ -1,7 +1,7 @@
 import { Home } from "./Home";
-import { AboutMe } from "./AboutMe";
-import { StarWars } from "./StarWars";
-import { Contact } from "./Contact";
+import { AboutMe } from "./aboutMe/AboutMe";
+import { StarWars } from "./StarWars/StarWars";
+import { Contact } from "./Contact/Contact";
 import { ErrorPage } from "./404";
 
 export const Main = ({ page }) => {

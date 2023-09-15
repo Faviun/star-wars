@@ -1,10 +1,11 @@
 import { Navigation } from "./Navigation";
+import styles from "../../styles/header.module.css"
 
 export const Header = ({ changePage }) => {
   return (
     <header>
       <Navigation changePage={changePage} />
-      <h1 className="text-center py-3">Luke Skywalker</h1>
+      <h1 className={styles.headerLine}></h1>
     </header>
   );
 };

@@ -1,5 +1,5 @@
-import friends from "../utils/constants";
-import styles from "../styles/friend.module.css";
+import friends from "../../utils/constants";
+import styles from "../../styles/friend.module.css";
 
 export const DreamTeam = () => {
   return (
