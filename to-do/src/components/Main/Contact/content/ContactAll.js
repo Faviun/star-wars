@@ -1,6 +1,7 @@
 import { ContactText } from "./ContactText";
 import { HologramImg } from "./HologramImg";
 import styles from "../../../../styles/contact.module.css";
+import { OfflineForm } from "./OfflineForm";
 
 export const ContactAll = () => {
   return (
@@ -9,7 +10,7 @@ export const ContactAll = () => {
             <HologramImg />
             <ContactText />
         </div >
-        <p className={styles.comment} >Добавлю оффлайн форму</p>
+        <OfflineForm />
     </div>
   );
 };

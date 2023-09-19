@@ -1,5 +1,4 @@
 .holoimg {
-    /* display: block; */
     margin: 3% 0 0 30%;
     width: 60%;
     float: left;
@@ -7,9 +6,6 @@
 
 .main {
     display: flex;
-    /* justify-content: start; */
-    /* margin: 0; */
-    /* padding: 0; */
 }
 
 .text {
@@ -19,9 +15,89 @@
     margin-right: 15%;
 }
 
-.comment {
-    display: inline-block;
+.form {
+    margin: 10vh 25vw; 
+    background-color: rgba(255, 0, 0, 0.7);
+    max-height: 80vh;
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px #ccc;
+    letter-spacing: 1px;
+}
+
+.leg {
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 10vh;
+    font-size: 2em;
+}
+
+.line {
+    position: relative;
+    display: block;
+    background-color: green;
+    margin: 100px 0;
+    
+}
+.formInpt{
     width: 100%;
-    margin: 30vh 25vw;
-    font-size: 3em;
+    padding:  0 0 10px 0;
+    background-color: rgb(225, 237, 139);
+    outline: none;
+    transition: 0.3s;
+    position: absolute;
+    bottom: 0;
+}
+
+#in2 {
+    top: 90px;
+}
+
+#in3 {
+    top: 180px;
+}
+
+.line span {
+    position: absolute;
+    top: -32px;
+    left: 10px;
+    color: black;
+    transition: 0.3s;
+    cursor: text;
+}
+
+.formInpt:focus + span,
+.formInpt:valid + span {
+    top: -68px;
+    left: 0;
+    padding: 0 7px;
+}
+
+.checkB {
+    margin-top: 310px;
+    display: flex;
+    margin-left: 10px;
+}
+
+.checkB span{
+    margin-left: 15px;
+}
+
+.but {
+    margin: 35px 12vw 3vh 12vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.but1, .but2 {
+    height: 7vh;
+    width: 8vw;
+}
+
+.but1 {
+    background-color: azure;
+}
+
+.but2 {
+    background-color:aquamarine;
 }
